@@ -2292,7 +2292,7 @@ do
 	local WiggleAnimationFrame = AnimationTab.Button({
 		Text = "Nightmare",
 		Callback = function(Value)
-			IClientToggleProperty.CurrentPickAnimationId = 134
+			IClientToggleProperty.CurrentPickAnimationId = 142
 			if CurrentAnimation then
 				CurrentAnimation:Stop()
 			end
