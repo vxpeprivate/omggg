@@ -6,7 +6,7 @@ local checkpublicrepo
 
 checkpublicrepo = function(id)
 	local suc, req = pcall(function() return requestfunc({
-		Url = "https://raw.githubusercontent.com/randomdude11135/IClient/main/GameScripts/" .. id .. ".Lua",
+		Url = "https://raw.githubusercontent.com/vxpeprivate/omggg/main/GameScripts/" .. id .. ".Lua",
 		Method = "GET"
 	}) end)
 	if not suc then
